@@ -1,5 +1,5 @@
-import { v4 as uuidv4 } from 'uuid';
-const fs = require('fs')
+const {v4: uuidv4} = require("uuid")
+const fs = require("fs")
 
 function registraLog(nome){
     const dataHora = new Date().toLocaleString()
@@ -14,3 +14,5 @@ function registraLog(nome){
         }
     } )
 }
+
+registraLog("ale")
