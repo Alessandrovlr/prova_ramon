@@ -1,0 +1,26 @@
+# Ignora a pasta node_modules (dependências instaladas com npm)
+node_modules/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Diretórios temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Cache de testes
+coverage/
+
+# Arquivos de build (caso use TypeScript ou bundlers)
+dist/
+build/
+
+# Logs do sistema
+*.log
